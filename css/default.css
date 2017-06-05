@@ -33,3 +33,9 @@ h1{
   background-color: blue;
   background: linear-gradient(0deg, #00679A, #0081B4 50%, #63B3D2 50%, #BFESF2);
 }
+
+#tenka_toru{
+  transition-duration: 1s scale(120);
+  transition-duration: 1s rotate(1080);
+  color: gold;
+}
