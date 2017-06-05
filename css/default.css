@@ -2,21 +2,34 @@
 
 body{
   background-image:   url(#),url(#);
-  background-repeart: no-repeart, no-repeart;
+  background-repeat: no-repeat, no-repeat;
   background-size:    100px 100px, contain;
   background-color:   green;
 }
 
 h1{
-  text-shadow:  3 3 3 gray;
+  text-shadow:  3px 3px 3px gray;
   color: black;
 }
 
 .soudan{
   margin:  10px;
   padding: 10px;
-  border:   5px;
-  solid black;
+  border:   5px solid: black;
   background-color: gray;
   color:  red;
+}
+
+.button{
+  display: block;
+  margin:   5px;
+  padding:  10px;
+  width:    200px;
+  border-radius:  5px;
+  box-shadow: 1px 1px 3px dimgray;
+  color:  white;
+  font-weight:  bold;
+  text-shadow:  1px 1px 0 rgba(0,0,0,0.4);
+  background-color: blue;
+  background: linear-gradient(0deg, #00679A, #0081B4 50%, #63B3D2 50%, #BFESF2);
 }
