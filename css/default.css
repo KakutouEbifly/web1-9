@@ -1,7 +1,7 @@
 @charset "UTF-8"
 
 body{
-  background-image:   url(#),url(#);
+  background-image:   url(../img/kishi.png),url(../img/party.jpg);
   background-repeat: no-repeat, no-repeat;
   background-size:    100px 100px, contain;
   background-color:   green;
