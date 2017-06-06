@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 body{
   background-image:   url(../img/kishi.png),url(../img/party.jpg);
@@ -15,7 +15,7 @@ h1{
 .soudan{
   margin:  10px;
   padding: 10px;
-  border:   5px solid: black;
+  border:   5px solid black;
   background-color: gray;
   color:  red;
 }
@@ -32,11 +32,11 @@ h1{
   font-weight:  bold;
   text-shadow:  1px 1px 0 rgba(0,0,0,0.4);
   background-color: blue;
-  background: linear-gradient(0deg, #00679A, #0081B4 50%, #63B3D2 50%, #BFESF2);
+  background: linear-gradient(0deg, #00679A, #0081B4 50%, #63B3D2 50%, #BFE5F2);
 }
 
 #tenka_toru{
-  transition-duration: 1s scale(120);
-  transition-duration: 1s rotate(1080);
+  transition-duration: 1s scale(120deg);
+  transition-duration: 1s rotate(1080deg);
   color: gold;
 }
